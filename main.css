@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*BODY*/	
+body {font-family: Arial, Sans serif;
+}
+/*BODY*/
+
+/*TOPNAVBAR*/
+
+#navContainer {
+background-color: #2d2d2d;
+	height: 30px;
+	width: auto;
+}
+#navContainer li {
+display: inline-block;
+	margin-top: 9px;
+	margin-bottom: 8px;
+	margin-left: 16px;
+	}
+ul {
+list-style: none;
+}
+#navContainer a {
+color: #bbb;
+text-decoration: none;
+font: Arial;
+font-size: 13px;
+font-weight: bold;
+}
+#navContainer a:hover {
+color: white;
+}
+.selected a {
+color: white;
+	}
+
+/*TOPNAVBAR*/
+
+/*LOGIN*/
+.login {
+float: right;
+margin-top: 20px;
+margin-right: 43px;
+background-color: #d54940;
+height: 19px;
+width: 71px;
+border-width: 1px solid;
+border-color: #d54940;
+color: white;
+font-family: Arial;
+font-weight: bold;
+font-size: 11px;
+text-decoration: none;
+text-align: center;
+border-radius: 2px;
+padding-top: 8px;
+padding-bottom: 6px;
+}
+
+/*SEARCH*/
+#mainContainer {
+text-align: center;
+margin-top: 150px;
+}
+
+#search_div{
+text-align: center;
+}
+#searchBar{
+width: 570px;
+height: 24px;
+margin-top: 40px;
+}
+#searchButton_div {
+color: black;
+margin-top: 25px;
+text-align: center
+}
+.searchButton {
+width: auto;
+height: 29px;
+font-size: 11px;
+font-weight: bold;
+color: #444444;
+background-color: #F1F1F1;
+border-weight: 1px;
+border: solid;
+border-color: #D9D9D9;
+border-radius: 2px;
+text-decoration: none;
+padding: 7px 8px 8px 8px;
+}
+/*FOOTER*/
+
+#footerContainer {
+z-index: -3;
+height: 30px;
+width: 100%;
+bottom: 0px;
+text-align: right;
+position: absolute;
+}
+
+#footerContainer li {
+display: inline-block;
+padding-top: 6px;
+padding-right: 10px;
+margin-left: 6px;
+}
+
+#footerContainer a {
+text-decoration: none;
+font-size: 13px;
+color: #666666;
+}
